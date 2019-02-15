@@ -1,0 +1,14 @@
+from myclass import Car
+
+car1 = Car()
+car1.disp_inf()
+
+
+types = "sedan"
+label = "nissan"
+color = "red"
+car1.change_inf(types, label,color)
+car1.disp_inf()
+
+
+ 
